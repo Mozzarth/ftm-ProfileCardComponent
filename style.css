@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: white;
+  /* padding-top: -100spx; */
 }
 
 .card-down img {
@@ -42,6 +43,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
+  margin-top: -45px;
 }
 .card-down .card-info-img {
   display: flex;
@@ -50,7 +52,7 @@ body {
 .card-info h2 {
   margin-bottom: 10px;
 }
-.card-info h2 small {
+.card-info h2 span {
   font-weight: 400;
   color: var(--color-tred);
 }
@@ -66,6 +68,7 @@ body {
   align-items: center;
   justify-content: space-around;
   border-top: 1.5px solid #d8d8d870;
+  margin-bottom: 28px;
 }
 .card-info-social > p {
   display: flex;
@@ -77,7 +80,7 @@ body {
   font-weight: 700;
   font-size: 16px;
 }
-.card-info-social small {
+.card-info-social span {
   letter-spacing: 2px;
   color: var(--color-tred);
   font-weight: 400;
