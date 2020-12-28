@@ -16,26 +16,32 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Profile card component</title>
   </head>
   <body>
-    <div class="card-container">
-      <div class="card-top"></div>
-      <div class="card-down">
-        <div class="card-info">
-          <div class="card-info-img">
-            <img src="images/image-victor.jpg" alt="imagen de perfil" />
-          </div>
-          <h2>Victor Crest <span>26</span></h2>
-          <address>London</address>
+    <article class="card">
+      <header class="card-header"></header>
+      <main class="card-body">
+        <img src="./images/image-victor.jpg" alt="imagen avatar" />
+        <h2>victor crest <span>26</span></h2>
+        <address>london</address>
+      </main>
+      <footer class="card-footer">
+        <div class="card-footer-social">
+          <h3>80k</h3>
+          <p>Followers</p>
         </div>
-        <footer class="card-info-social">
-          <p>80K <span>Followers </span></p>
-          <p>803K <span>Likes</span></p>
-          <p>1.4K <span>Photos</span></p>
-        </footer>
-      </div>
-    </div>
+        <div class="card-footer-social">
+          <h3>803k</h3>
+          <p>Likes</p>
+        </div>
+        <div class="card-footer-social">
+          <h3>1.4k</h3>
+          <p>Photos</p>
+        </div>
+      </footer>
+    </article>
   </body>
 </html>
